@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Casper Website
+
+This is the official website for the Casper Chrome extension, an AI-powered TikTok comment assistant that helps marketing teams and content creators respond to TikTok comments more efficiently.
+
+## Project Structure
+
+The website is built using Next.js and includes the following key components:
+
+- **Home Page**: Showcases the extension's features with an image slider and detailed information
+- **Privacy Policy Page**: Provides information about data handling and privacy practices
+- **Components**:
+  - `ImageSlider`: A reusable component that displays screenshots of the extension in action
+
+## Technologies Used
+
+- **Next.js**: React framework for building the website
+- **Tailwind CSS**: For styling the UI components
+- **Swiper**: For the image slider functionality
+- **TypeScript**: For type-safe code
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository
+2. Install dependencies:
+   ```
+   npm install
+   ```
+3. Run the development server:
+   ```
+   npm run dev
+   ```
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Deployment
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The website is configured for easy deployment on Vercel or other Next.js-compatible hosting platforms.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Responsive design that works on mobile and desktop
+- Image slider showcasing the extension's features
+- Detailed information about the extension's functionality
+- Privacy policy page
+- Download links to the Chrome Web Store
 
-## Learn More
+## License
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+© Aren Hovsepyan. All rights reserved.
